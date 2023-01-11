@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'dart:collection';
+import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:meta/meta.dart';
 
 abstract class RefreshBase {
@@ -20,13 +21,13 @@ enum IndicatorStatus {
 
 abstract class LoadingMoreBase<T> extends ListBase<T>
     with _LoadingMoreBloc<T>, RefreshBase {
-  final List<T> _array = <T>[];
+  IList<T> _array = <T>[].lock;
 
   @override
   T operator [](int index) => _array[index];
 
   @override
-  void operator []=(int index, T value) => _array[index] = value;
+  void operator []=(int index, T value) => _array.replace(index, value);
 
   bool get hasMore => true;
   bool isLoading = false;
@@ -92,7 +93,7 @@ abstract class LoadingMoreBase<T> extends ListBase<T>
   @override
   int get length => _array.length;
   @override
-  set length(int newLength) => _array.length = newLength;
+  set length(int newLength) => _array.unlock.length = newLength;
 
   @override
   //@protected
@@ -113,7 +114,12 @@ abstract class LoadingMoreBase<T> extends ListBase<T>
 
   @override
   void add(T element) {
-    _array.add(element);
+   _array = _array.add(element);
+  }
+  @override
+  void addAll(Iterable<T> iterable) {
+    _array = _array.addAll(iterable);
+    super.addAll(iterable);
   }
 }
 
