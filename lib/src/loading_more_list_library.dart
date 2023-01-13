@@ -22,6 +22,8 @@ enum IndicatorStatus {
 abstract class LoadingMoreBase<T> extends ListBase<T>
     with _LoadingMoreBloc<T>, RefreshBase {
   IList<T> _array = <T>[].lock;
+  IList<T> get array => _array;
+  set array(IList<T> data) => _array = data;
 
   @override
   T operator [](int index) => _array[index];
@@ -112,6 +114,8 @@ abstract class LoadingMoreBase<T> extends ListBase<T>
     super.onStateChanged(this);
   }
 
+
+
   @override
   void add(T element) {
    _array = _array.add(element);
@@ -119,7 +123,12 @@ abstract class LoadingMoreBase<T> extends ListBase<T>
   @override
   void addAll(Iterable<T> iterable) {
     _array = _array.addAll(iterable);
-    super.addAll(iterable);
+  }
+
+  @override
+  void clear() {
+    _array = _array.clear();
+    super.clear();
   }
 }
 
