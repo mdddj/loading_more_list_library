@@ -13,8 +13,11 @@ abstract class RefreshBase {
 extension IListEx<T> on IList<T> {
   IList<T> updateItemEx(T oldItem, T Function(T old) call) {
     final int index = indexOf(oldItem);
-    final T newItem = call(get(index));
-    return replace(index, newItem);
+    if(index>=0){
+      final T newItem = call(get(index));
+      return replace(index, newItem);
+    }
+    return this;
   }
 }
 
