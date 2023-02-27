@@ -24,17 +24,13 @@ extension IListEx<T> on IList<T> {
 enum IndicatorStatus { none, loadingMoreBusying, fullScreenBusying, error, fullScreenError, noMoreLoad, empty }
 
 abstract class LoadingMoreBase<T> extends ListBase<T> with _LoadingMoreBloc<T>, RefreshBase {
-  IList<T> _array = <T>[].lock;
-
-  IList<T> get array => _array;
-
-  set array(IList<T> data) => _array = data;
+  IList<T> array = <T>[].lock;
 
   @override
-  T operator [](int index) => _array[index];
+  T operator [](int index) => array[index];
 
   @override
-  void operator []=(int index, T value) => _array.replace(index, value);
+  void operator []=(int index, T value) => array.replace(index, value);
 
   bool get hasMore => true;
   bool isLoading = false;
@@ -99,10 +95,10 @@ abstract class LoadingMoreBase<T> extends ListBase<T> with _LoadingMoreBloc<T>, 
   }
 
   @override
-  int get length => _array.length;
+  int get length => array.length;
 
   @override
-  set length(int newLength) => _array.unlock.length = newLength;
+  set length(int newLength) => array.unlock.length = newLength;
 
   @override
   //@protected
@@ -130,9 +126,9 @@ abstract class LoadingMoreBase<T> extends ListBase<T> with _LoadingMoreBloc<T>, 
   }
 
   T updateItem(T oldItem, T Function(T old) call, [bool updateUi = false]) {
-    final int index = _array.indexOf(oldItem);
+    final int index = array.indexOf(oldItem);
     final T newItem = call(get(index));
-    _array = _array.replace(index, newItem);
+    array = array.replace(index, newItem);
     if (updateUi) {
       setState();
     }
@@ -141,27 +137,27 @@ abstract class LoadingMoreBase<T> extends ListBase<T> with _LoadingMoreBloc<T>, 
 
   @override
   void add(T element) {
-    _array = _array.add(element);
+    array = array.add(element);
   }
 
   @override
   void addAll(Iterable<T> iterable) {
-    _array = _array.addAll(iterable);
+    array = array.addAll(iterable);
   }
 
   @override
   void clear() {
-    _array = _array.clear();
+    array = array.clear();
   }
 
   @override
   void removeWhere(bool Function(T element) test) {
-    _array = _array.removeWhere(test);
+    array = array.removeWhere(test);
   }
 
   @override
   void insert(int index, T element) {
-    _array = _array.insert(index, element);
+    array = array.insert(index, element);
   }
 }
 

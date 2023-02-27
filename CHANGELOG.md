@@ -1,3 +1,7 @@
+## 3.0.0
+
+* 性能优化
+
 ## 2.0.1
 
 * Fix error when add non-null T
