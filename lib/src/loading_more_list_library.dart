@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'dart:collection';
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
-import 'package:meta/meta.dart';
 
 abstract class RefreshBase {
   Future<bool> refresh([bool notifyStateChanged = false]);
@@ -10,16 +9,6 @@ abstract class RefreshBase {
   Future<bool> errorRefresh();
 }
 
-extension IListEx<T> on IList<T> {
-  IList<T> updateItemEx(T oldItem, T Function(T old) call) {
-    final int index = indexOf(oldItem);
-    if (index >= 0) {
-      final T newItem = call(get(index));
-      return replace(index, newItem);
-    }
-    return this;
-  }
-}
 
 enum IndicatorStatus { none, loadingMoreBusying, fullScreenBusying, error, fullScreenError, noMoreLoad, empty }
 
@@ -38,7 +27,6 @@ abstract class LoadingMoreBase<T> extends ListBase<T> with _LoadingMoreBloc<T>, 
   //do not change this in out side
   IndicatorStatus indicatorStatus = IndicatorStatus.fullScreenBusying;
 
-  @mustCallSuper
   Future<bool> loadMore() async {
     final IndicatorStatus preStatus = indicatorStatus;
     indicatorStatus = IndicatorStatus.loadingMoreBusying;
@@ -74,7 +62,6 @@ abstract class LoadingMoreBase<T> extends ListBase<T> with _LoadingMoreBloc<T>, 
   Future<bool> loadData([bool isLoadMoreAction = false]);
 
   @override
-  @mustCallSuper
   Future<bool> refresh([bool notifyStateChanged = false]) async {
     if (notifyStateChanged) {
       clear();
@@ -86,7 +73,6 @@ abstract class LoadingMoreBase<T> extends ListBase<T> with _LoadingMoreBloc<T>, 
   }
 
   @override
-  @mustCallSuper
   Future<bool> errorRefresh() async {
     if (isEmpty) {
       return await refresh(true);
@@ -100,12 +86,6 @@ abstract class LoadingMoreBase<T> extends ListBase<T> with _LoadingMoreBloc<T>, 
   @override
   set length(int newLength) => array.unlock.length = newLength;
 
-  @override
-  //@protected
-  @mustCallSuper
-  void onStateChanged(LoadingMoreBase<T> source) {
-    super.onStateChanged(source);
-  }
 
   bool get hasError {
     return indicatorStatus == IndicatorStatus.fullScreenError || indicatorStatus == IndicatorStatus.error;
@@ -159,6 +139,7 @@ abstract class LoadingMoreBase<T> extends ListBase<T> with _LoadingMoreBloc<T>, 
   void insert(int index, T element) {
     array = array.insert(index, element);
   }
+
 }
 
 class _LoadingMoreBloc<T> {
