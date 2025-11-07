@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LddProjectTimer">
+    <option name="dateStatistics">
+      <map>
+        <entry key="2025-01-10">
+          <value>
+            <list>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-01-10 17:45:03" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="86" />
+                <option name="startDateFormat" value="2025-01-10 17:43:37" />
+                <option name="date" value="1736502303576" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-01-10 17:49:47" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="282" />
+                <option name="startDateFormat" value="2025-01-10 17:45:05" />
+                <option name="date" value="1736502587547" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-01-10 17:49:47" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="startDateFormat" value="2025-01-10 17:45:05" />
+                <option name="date" value="1736502587547" />
+              </TimerStateModel>
+            </list>
+          </value>
+        </entry>
+        <entry key="2025-01-13">
+          <value>
+            <list>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-01-13 16:59:42" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="25" />
+                <option name="startDateFormat" value="2025-01-13 16:59:17" />
+                <option name="date" value="1736758782907" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-01-13 16:59:42" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="startDateFormat" value="2025-01-13 16:59:17" />
+                <option name="date" value="1736758782907" />
+              </TimerStateModel>
+            </list>
+          </value>
+        </entry>
+        <entry key="2025-02-26">
+          <value>
+            <list>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 09:23:12" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="28" />
+                <option name="startDateFormat" value="2025-02-26 09:22:44" />
+                <option name="date" value="1740532992619" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 09:23:22" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="5" />
+                <option name="startDateFormat" value="2025-02-26 09:23:16" />
+                <option name="date" value="1740533002721" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 09:24:21" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="48" />
+                <option name="startDateFormat" value="2025-02-26 09:23:33" />
+                <option name="date" value="1740533061447" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 09:24:21" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="startDateFormat" value="2025-02-26 09:23:33" />
+                <option name="date" value="1740533061447" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 09:24:21" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="startDateFormat" value="2025-02-26 09:23:33" />
+                <option name="date" value="1740533061447" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 10:48:52" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="startDateFormat" value="2025-02-26 10:48:52" />
+                <option name="date" value="1740538132070" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 10:49:10" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="17" />
+                <option name="startDateFormat" value="2025-02-26 10:48:52" />
+                <option name="date" value="1740538150784" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 10:49:41" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="26" />
+                <option name="startDateFormat" value="2025-02-26 10:49:15" />
+                <option name="date" value="1740538181259" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 10:51:36" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="96" />
+                <option name="startDateFormat" value="2025-02-26 10:49:59" />
+                <option name="date" value="1740538296097" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 10:52:18" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="11" />
+                <option name="startDateFormat" value="2025-02-26 10:52:07" />
+                <option name="date" value="1740538338392" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 10:58:08" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="84" />
+                <option name="startDateFormat" value="2025-02-26 10:56:44" />
+                <option name="date" value="1740538688248" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 11:01:12" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="121" />
+                <option name="startDateFormat" value="2025-02-26 10:59:10" />
+                <option name="date" value="1740538872822" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 11:01:18" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="3" />
+                <option name="startDateFormat" value="2025-02-26 11:01:15" />
+                <option name="date" value="1740538878740" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 11:01:31" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="2" />
+                <option name="startDateFormat" value="2025-02-26 11:01:28" />
+                <option name="date" value="1740538891257" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 11:01:31" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="startDateFormat" value="2025-02-26 11:01:28" />
+                <option name="date" value="1740538891257" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 11:01:31" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="startDateFormat" value="2025-02-26 11:01:28" />
+                <option name="date" value="1740538891257" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 11:30:53" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="123" />
+                <option name="startDateFormat" value="2025-02-26 11:28:50" />
+                <option name="date" value="1740540653988" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 11:30:53" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="startDateFormat" value="2025-02-26 11:28:50" />
+                <option name="date" value="1740540653988" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 11:30:53" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="startDateFormat" value="2025-02-26 11:28:50" />
+                <option name="date" value="1740540653988" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 11:38:35" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="446" />
+                <option name="startDateFormat" value="2025-02-26 11:31:08" />
+                <option name="date" value="1740541115282" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-02-26 11:38:35" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="startDateFormat" value="2025-02-26 11:31:08" />
+                <option name="date" value="1740541115283" />
+              </TimerStateModel>
+            </list>
+          </value>
+        </entry>
+        <entry key="2025-03-12">
+          <value>
+            <list>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-03-12 17:54:44" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="2" />
+                <option name="startDateFormat" value="2025-03-12 17:54:42" />
+                <option name="date" value="1741773284213" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-03-12 17:55:44" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="59" />
+                <option name="startDateFormat" value="2025-03-12 17:54:44" />
+                <option name="date" value="1741773344168" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-03-12 17:55:57" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="9" />
+                <option name="startDateFormat" value="2025-03-12 17:55:47" />
+                <option name="date" value="1741773357427" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-03-12 17:56:15" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="14" />
+                <option name="startDateFormat" value="2025-03-12 17:56:00" />
+                <option name="date" value="1741773375493" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-03-12 17:56:22" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="4" />
+                <option name="startDateFormat" value="2025-03-12 17:56:17" />
+                <option name="date" value="1741773382445" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-03-12 17:56:54" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="22" />
+                <option name="startDateFormat" value="2025-03-12 17:56:32" />
+                <option name="date" value="1741773414975" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-03-12 17:56:58" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="seconds" value="1" />
+                <option name="startDateFormat" value="2025-03-12 17:56:57" />
+                <option name="date" value="1741773418679" />
+              </TimerStateModel>
+              <TimerStateModel>
+                <option name="dateFormat" value="2025-03-12 17:56:58" />
+                <option name="name" value="loading_more_list_library_fast-4.1.2" />
+                <option name="startDateFormat" value="2025-03-12 17:56:57" />
+                <option name="date" value="1741773418679" />
+              </TimerStateModel>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

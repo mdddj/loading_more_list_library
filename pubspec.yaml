@@ -1,0 +1,22 @@
+name: loading_more_list_library_fast
+description: dart package library for LoadingMoreList, it provides core classes.
+version: 4.2.3
+homepage: https://github.com/fluttercandies/loading_more_list_library
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fast_immutable_collections: ^11.1.0
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.9.0
+  provider: ^6.1.5+1
+dev_dependencies:
+  build_runner: ^2.9.0
+  freezed: ^3.2.3
+  json_serializable: ^6.11.1
+
+
+
